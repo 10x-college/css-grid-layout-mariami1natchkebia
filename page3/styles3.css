@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(16deg,rgba(91, 99, 100, 1) 0%, rgba(29, 42, 31, 1) 90%);
+    margin: 90px 40px 40px 40px;
+
+}
+
+
+.pic-container1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 20px; 
+}
+
+.pic1 {
+    grid-column: 1 ;
+    grid-row: 1;
+    background-image: url(../page3/assets/pic1.jpg);
+    background-size: cover;
+    min-height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px #2e251e;
+}
+
+.pic2 {
+    grid-column: 2 ;
+    grid-row: 1;
+    background-image: url(../page3/assets/pic2.jpg);
+    background-size: cover;
+    min-height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px #2e251e;
+}
+
+.pic3 {
+    grid-column: 4 ;
+    grid-row: 1;
+    background-image: url(../page3/assets/pic3.jpg);
+    background-size: cover;
+    min-height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px #2e251e;
+}
+
+.pic4 {
+    grid-column: 2 ;
+    grid-row: 2;
+    background-image: url(../page3/assets/pic4.jpg);
+    background-size: cover;
+    min-height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px #2e251e;
+}
+
+.pic5 {
+    grid-column: 3 ;
+    grid-row: 2;
+    background-image: url(../page3/assets/pic5.jpg);
+    background-size: cover;
+    min-height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px #2e251e;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 80px;
+    gap: 38px;
+    
+    
+}
+
+a {
+        width: 300px;
+        height: 70px;
+        background-color: #22232B;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
+a.current-page {
+  color: rgb(0, 0, 0);
+  background-color: #9AA6A5;
+  font-weight: bolder;
+}
